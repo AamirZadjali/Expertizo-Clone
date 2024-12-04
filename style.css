@@ -4,6 +4,7 @@ body {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "Nunito";
 }
 #nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -35,4 +36,25 @@ body {
   font-size: 20px;
   text-decoration: none;
   color: rgb(7, 7, 187);
+}
+#contactUSbtn {
+  background-color: rgb(7, 7, 187);
+  border-radius: 1px;
+  padding: 10px 20px;
+  border: none;
+  color: white;
+  margin-left: 10%;
+}
+#banner2 {
+  background-color: #f6f9ff;
+  margin: 10px 30px;
+  display: flex;
+  justify-content: center;
+}
+#banner2txt {
+  padding: 10px;
+  width: 50%;
+}
+#banner2img {
+  width: 50%;
 }
