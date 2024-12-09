@@ -126,7 +126,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
 }
-#card1 {
+.card {
   flex-direction: column;
   display: flex;
   justify-content: center;
@@ -137,165 +137,111 @@ body {
   border-radius: 10px;
   background-color: rgb(250, 250, 250);
 }
-#card1img {
+.cardimg {
   background-color: #dbf3fe;
+  border-radius: 5px;
 }
 
 #card1:hover {
-  background-color: #1eaff8;
+  background-color: #1de5ec;
+  .cardimg {
+    background-color: #fff;
+    .cardtxt {
+      color: #fff;
+      background-color: #ffffff;
+    }
+  }
 }
-#card1:hover #card1img {
-  color: #1eaff8;
-  background-color: #f2f5f7;
-}
-#card1 {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  text-align: center;
-  align-items: center;
-  padding: 50px 20px;
-  border-radius: 10px;
-  background-color: rgb(250, 250, 250);
-}
-#card1img {
-  background-color: #dbf3fe;
-}
-
-#card1:hover {
-  background-color: #1eaff8;
-}
-#card1:hover #card1img {
-  color: #1eaff8;
-  background-color: #f2f5f7;
-}
-
-#card2 {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  text-align: center;
-  align-items: center;
-  padding: 50px 20px;
-  border-radius: 10px;
-  background-color: rgb(250, 250, 250);
-}
-#card2img {
-  background-color: #dbf3fe;
-}
-
 #card2:hover {
-  background-color: #1eaff8;
+  background-color: #fdbc08;
+  .cardimg {
+    background-color: #fff;
+    .cardtxt {
+      color: #fff;
+      background-color: #ffffff;
+    }
+  }
 }
-#card2:hover #card2img {
-  color: #1eaff8;
-  background-color: #f2f5f7;
-}
-
-#card3 {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  text-align: center;
-  align-items: center;
-  padding: 50px 20px;
-  border-radius: 10px;
-  background-color: rgb(250, 250, 250);
-}
-#card3img {
-  background-color: #dbf3fe;
-}
-
 #card3:hover {
-  background-color: #1eaff8;
+  background-color: #10fa10;
+  .cardimg {
+    background-color: #fff;
+    .cardtxt {
+      color: #fff;
+      background-color: #ffffff;
+    }
+  }
 }
-#card3:hover #card3img {
-  color: #1eaff8;
-  background-color: #f2f5f7;
-}
-
-#card4 {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  text-align: center;
-  align-items: center;
-  padding: 50px 20px;
-  border-radius: 10px;
-  background-color: rgb(250, 250, 250);
-}
-#card4img {
-  background-color: #dbf3fe;
-}
-
 #card4:hover {
-  background-color: #1eaff8;
+  background-color: #f72929;
+  .cardimg {
+    background-color: #fff;
+    .cardtxt {
+      color: #fff;
+      background-color: #ffffff;
+    }
+  }
 }
-#card4:hover #card4img {
-  color: #1eaff8;
-  background-color: #f2f5f7;
-}
-
-#card5 {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  text-align: center;
-  align-items: center;
-  padding: 50px 20px;
-  border-radius: 10px;
-  background-color: rgb(250, 250, 250);
-}
-#card5img {
-  background-color: #dbf3fe;
-}
-
 #card5:hover {
-  background-color: #1eaff8;
+  background-color: #b159b1;
+  .cardimg {
+    background-color: #fff;
+    .cardtxt {
+      color: #fff;
+      background-color: #ffffff;
+    }
+  }
 }
-#card5:hover #card5img {
-  color: #1eaff8;
-  background-color: #f2f5f7;
-}
-
-#card6 {
-  flex-direction: column;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  text-align: center;
-  align-items: center;
-  padding: 50px 20px;
-  border-radius: 10px;
-  background-color: rgb(250, 250, 250);
-}
-#card6img {
-  background-color: #dbf3fe;
-}
-
 #card6:hover {
-  background-color: #1eaff8;
-  #card6img{
-    color: #1eaff8;
-    background-color: #f2f5f7;
+  background-color: #f709c3;
+  .cardimg {
+    background-color: #fff;
+    .cardtxt {
+      color: #fff;
+      background-color: #ffffff;
+    }
   }
 }
 
-
-#banner5 {
-  display: flex;
-  justify-content: center;
+#section5 {
   text-align: center;
-  flex-direction: column;
 }
-#banner5txt h3 {
-  color: #4154f1;
+#section5 h3 {
+  color: rgb(62, 133, 214);
 }
-#banner5txt h1 {
-  color: #012970;
+#section5 h1 {
+  color: rgb(43, 78, 117);
+}
+#banner5 {
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+}
+#banner5img {
+  width: 50%;
+}
+#banner5keys {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.key {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  box-shadow: 1px 1px 5px rgb(219, 218, 218);
+  padding: 0 2rem;
+  height: max-content;
+  border-radius: 10px;
+}
+.sign {
+  background-color: #f6f9ff;
+  padding: 5px 10px;
+}
+.key:hover {
+  .sign {
+    background-color: #1a01fa;
+    color: #ffffff;
+  }
 }
