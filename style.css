@@ -245,3 +245,22 @@ body {
     color: #ffffff;
   }
 }
+#banner6 {
+  text-align: center;
+}
+#containerbn6 {
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.imgbn6 {
+  width: 25%;
+  border-radius: 10px;
+}
+.imgbn6 img {
+  border-radius: 10px;
+}
+.imgbn6:hover {
+}
