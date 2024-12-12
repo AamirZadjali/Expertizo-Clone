@@ -80,13 +80,6 @@ body {
   gap: 40px;
   text-align: center;
 }
-
-#banner3txt h3 {
-  color: #4154f1;
-}
-#banner3txt h1 {
-  color: #012970;
-}
 #banner3imgs {
   display: flex;
   align-items: center;
@@ -102,12 +95,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-#banner4txt h3 {
-  color: #4154f1;
-}
-#banner4txt h1 {
-  color: #012970;
 }
 #banner4txt {
   display: flex;
@@ -203,15 +190,6 @@ body {
   }
 }
 
-#section5 {
-  text-align: center;
-}
-#section5 h3 {
-  color: rgb(62, 133, 214);
-}
-#section5 h1 {
-  color: rgb(43, 78, 117);
-}
 #banner5 {
   width: 100%;
   display: flex;
@@ -245,9 +223,7 @@ body {
     color: #ffffff;
   }
 }
-#banner6 {
-  text-align: center;
-}
+
 #containerbn6 {
   width: 100%;
   display: flex;
@@ -255,12 +231,130 @@ body {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+#keys {
+  text-align: center;
+  color: #012970;
+}
 .imgbn6 {
   width: 25%;
+  background-image: url("https://www.expertizo.pk/assets/img/pinched.jpg");
   border-radius: 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.imgbn6 p {
+  background-color: #ffffff;
+  color: black;
+  padding: 20px;
+  visibility: hidden;
 }
 .imgbn6 img {
   border-radius: 10px;
 }
 .imgbn6:hover {
+  .imgbnp {
+    opacity: 0.5;
+    visibility: visible;
+  }
+}
+
+.h3 {
+  text-align: center;
+  color: rgb(62, 133, 214);
+}
+.h1 {
+  text-align: center;
+  color: rgb(43, 78, 117);
+}
+#banner7 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#banner7card {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
+  flex-wrap: wrap;
+  border: #444444;
+}
+.bn7card1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 15%;
+  text-align: center;
+  align-items: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+}
+.ban7img {
+  border-radius: 50%;
+  width: 100px;
+}
+#banner8 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bn8cards {
+  width: 100%;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+  align-items: center;
+  flex-wrap: wrap;
+  border: #444444;
+}
+.bn8card1 {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  text-align: center;
+  align-items: center;
+  padding: 50px 20px;
+  border-radius: 10px;
+  background-color: rgb(250, 250, 250);
+}
+#top {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+#mainbn9 {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.boxstyle {
+  background: #f2f4f8;
+  padding: 30px;
+  color: #444444;
+}
+.boxstyle h2 {
+  color: #012970;
+}
+.boxstyle i {
+  font-size: 38px;
+  color: #4154f1;
+  margin-left: 20px;
+}
+#bn9form {
+  height: 425px;
+  background: #f2f4f8;
 }
