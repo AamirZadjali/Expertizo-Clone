@@ -337,9 +337,11 @@ body {
   gap: 20px;
 }
 #mainbn9 {
+  margin-left: 20px;
   display: flex;
   justify-content: center;
   gap: 25px;
+  height: 80vh;
 }
 .boxstyle {
   background: #f2f4f8;
@@ -355,6 +357,24 @@ body {
   margin-left: 20px;
 }
 #bn9form {
-  height: 425px;
-  background: #f2f4f8;
+  padding: 10px;
+  height: 430px;
+  width: 50%;
+  background: #ffffff;
+  height: 80vh;
+}
+#bn9form input {
+  height: 3%;
+  width: 40%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+#btnsendmsg {
+  background: #4154f1;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
 }
