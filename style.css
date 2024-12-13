@@ -378,3 +378,33 @@ body {
   transition: 0.4s;
   border-radius: 4px;
 }
+#banner10{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+#form {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+#form button{
+  height: 3%;
+  width: 100px;
+  padding: 10px;
+  background-color: #1a01fa;
+  color: #fff;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+#banner10 input {
+  height: 3%;
+  width: 50%;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
