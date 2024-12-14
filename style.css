@@ -124,11 +124,30 @@ body {
   border-radius: 10px;
   background-color: rgb(250, 250, 250);
 }
-.cardimg {
+#cardimg1 {
   background-color: #dbf3fe;
   border-radius: 5px;
 }
-
+#cardimg2 {
+  background-color: #f2f8ba;
+  border-radius: 5px;
+}
+#cardimg3 {
+  background-color: #faabf3;
+  border-radius: 5px;
+}
+#cardimg4 {
+  background-color: #fedcdb;
+  border-radius: 5px;
+}
+#cardimg5 {
+  background-color: #cdfccd;
+  border-radius: 5px;
+}
+#cardimg6 {
+  background-color: #fdbee3;
+  border-radius: 5px;
+}
 #card1:hover {
   background-color: #1de5ec;
   .cardimg {
@@ -150,7 +169,7 @@ body {
   }
 }
 #card3:hover {
-  background-color: #10fa10;
+  background-color: #b159b1;
   .cardimg {
     background-color: #fff;
     .cardtxt {
@@ -170,7 +189,7 @@ body {
   }
 }
 #card5:hover {
-  background-color: #b159b1;
+  background-color: #10fa10;
   .cardimg {
     background-color: #fff;
     .cardtxt {
@@ -332,7 +351,7 @@ body {
   /* gap: 25px; */
   height: 80vh;
 }
-#box1bn9{
+#box1bn9 {
   display: flex;
   width: 50%;
   flex-wrap: wrap;
@@ -361,9 +380,9 @@ body {
   background: #ffffff;
   height: 80vh;
   margin-top: 10%;
-  
 }
-#bn9form input, textarea {
+#bn9form input,
+textarea {
   height: 20px;
   width: 40%;
   border-radius: 5px;
