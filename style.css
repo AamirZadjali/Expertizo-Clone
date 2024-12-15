@@ -315,7 +315,6 @@ body {
   border-radius: 10px;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 
 .imgbn6 p {
@@ -509,4 +508,155 @@ textarea {
   display: flex;
   flex-direction: column;
   width: 20%;
+}
+/* Media querry  */
+@media screen and (max-width: 1000px) {
+  * {
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  /* navbar */
+  #nav {
+    width: 100%;
+    justify-items: center;
+  }
+  #navitems {
+    display: none;
+  }
+
+  /* main */
+  /* section 1 */
+  #banner1 {
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+  }
+  #banner1txt {
+    width: 100%;
+  }
+  /* section 2 */
+  #banner2 {
+    flex-direction: column;
+    height: 100%;
+  }
+  #banner2txt {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+  }
+  #banner2img {
+    width: 100%;
+  }
+  /* section 3 */
+  #banner3 {
+    height: 100%;
+    width: 100%;
+  }
+  #banner3imgs {
+    flex-wrap: wrap;
+  }
+  /* section 4 */
+  #banner4 {
+    width: 100%;
+  }
+  #cards {
+    flex-wrap: wrap;
+  }
+  .card {
+    width: 45%;
+  }
+  /* section 5 */
+  #section5 {
+    width: 100%;
+  }
+  #banner5 {
+    flex-direction: column;
+    gap: 2rem;
+  }
+  #banner5img {
+    width: 100%;
+  }
+  #banner5keys {
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .key {
+    width: max-content;
+  }
+  /* section 7 */
+  #banner7 {
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #banner7card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .bn7card1 {
+    width: 100%;
+  }
+  /* section 8 */
+  #banner8 {
+    width: 100%;
+    flex-direction: column;
+  }
+  .bn8cards {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .bn8card1 {
+    width: 100%;
+  }
+  #banner9 {
+    width: 100%;
+    flex-direction: column;
+  }
+  #mainbn9 {
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #box1bn9 {
+    justify-content: center;
+    width: 100%;
+  }
+  #bn9form {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+  /* section 10 */
+  #banner10 {
+    width: 100%;
+    flex-direction: column;
+  }
+  #footer {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #banner10img {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  #usefullinks {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #oursolution {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  #contactus {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
 }
